@@ -38,12 +38,4 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
-
-//...
-"homepage": "http://username.github.io/react-pages"
-
-"scripts": {
-  //...
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
 }
