@@ -22,9 +22,9 @@ export default class serchBox extends React.Component {
       const {contactMe} = this.state;
     return (
         <React.Fragment>
-            <div >
-                <input 
-                className = "input_box" 
+            <div className="input_div">
+                <input
+                className="input_box" 
                 placeholder="Google で検索または URL を入力" 
 
                 onKeyDown = {(e) => this.handleKeyDown(e)}

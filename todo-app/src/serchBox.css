@@ -1,4 +1,8 @@
+.input_div {
+    text-align: center;
+}
+
 .input_box{
-    left:500px;
-    width:500px;
+    text-align: center;
+    width: 500px;
 }
