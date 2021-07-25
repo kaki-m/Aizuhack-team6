@@ -96,10 +96,14 @@ body {
 }
 .btn__edit { /* 「編集」ボタン */
     display: inline-block;
+    position: absolute;
+  right:30px;
 }
 .btn__delete { /* 「削除」ボタン */
     display: inline-block;
   color: #fff;
+  position: absolute;
+  right:0px;
 }
 .btn__filter {
   border-color: lightgrey;
@@ -109,9 +113,10 @@ body {
   background-color: #000;
 }
 .btn-group {
-    text-align: right;
+  text-align: right;
   display: inline-block;
   justify-content: space-between;
+  
 }
 .btn-group > * {
   flex: 1 1 49%;
