@@ -1,4 +1,3 @@
-
 /* RESETS */
 *,
 *::before,
@@ -69,6 +68,7 @@ body {
   }
 }
 /*END RESETS*/
+
 /* GLOBAL STYLES */
 .form-group > input[type="text"] {
   display: inline-block;
@@ -146,6 +146,7 @@ body {
   margin-top: 1.2rem;
 }
 /* END GLOBAL STYLES */
+
 .todoapp {
   background: #fff;
   margin: 2rem 0 4rem 0;
@@ -173,9 +174,11 @@ body {
   margin: 0;
   margin-bottom: 1rem;
 }
+
+/* Page title */
 .label__lg {
-  line-height: 1.01567;
-  font-weight: 300;
+  margin-top: 100px;
+  margin-bottom: 40px;
   padding: 0.8rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -205,6 +208,7 @@ body {
   width: 100%;
   margin: unset auto;
 }
+
 /* Todo item styles */
 .todo {
   display: flex;
@@ -223,6 +227,7 @@ body {
 .todo-text:focus {
   box-shadow: inset 0 0 0 2px;
 }
+
 /* CHECKBOX STYLES */
 .c-cb {
   box-sizing: border-box;
