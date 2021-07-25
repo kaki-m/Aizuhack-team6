@@ -1,4 +1,4 @@
-import './serchBox.scss';
+import './serchBox.css';
 import React from 'react';
 
 
