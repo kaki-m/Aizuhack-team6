@@ -98,12 +98,14 @@ body {
     display: inline-block;
     position: absolute;
   right:30px;
+  top:5px;
 }
 .btn__delete { /* 「削除」ボタン */
     display: inline-block;
   color: #fff;
   position: absolute;
   right:0px;
+  top:5px;
 }
 .btn__filter {
   border-color: lightgrey;
