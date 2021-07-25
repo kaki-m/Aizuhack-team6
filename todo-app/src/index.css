@@ -83,7 +83,6 @@ body {
 /* 「追加」「編集」「削除」ボタン */
 .btn { /* ボタン全て */
   padding: 0.8rem 1rem 0.7rem;
-  
   cursor: pointer;
   text-transform: capitalize;
 }
@@ -95,11 +94,11 @@ body {
   border: 2px dashed #32cd32;
 }
 .btn__edit { /* 「編集」ボタン */
-    display: inline-block;
+  display: inline-block;
 }
 .btn__delete { /* 「削除」ボタン */
-    display: inline-block;
-  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
 }
 .btn__filter {
   border-color: lightgrey;
@@ -109,7 +108,7 @@ body {
   background-color: #000;
 }
 .btn-group {
-    text-align: right;
+  text-align: right;
   display: inline-block;
   justify-content: space-between;
 }
@@ -165,7 +164,7 @@ body {
   margin-right: auto;
   margin-top: 16rem;
   width: 90%;
-  padding: 1rem;
+  padding: 4rem;
   position: relative;
   /* 影をつける */
   box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.2)

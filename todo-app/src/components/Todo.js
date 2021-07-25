@@ -77,25 +77,25 @@ export default function Todo(props) {
           />
           <label className="todo-label" htmlFor={props.id}>
             {props.name}
-            <div className="btn-group">
-              <button
-              type="button"
-              className="btn btn__edit"
-              onClick={() => setEditing(true)}
-              ref={editButtonRef}
-              >
-              <img src={EditButton} width="20rem"></img><span className="visually-hidden">{props.name}</span>
-            </button>
-            <button
-              type="button"
-              className="btn btn__delete"
-              onClick={() => props.deleteTask(props.id)}
-            >
-            <img src={DeleteButton} width="20rem"></img> <span className="visually-hidden">{props.name}</span>
-            </button>
-          </div>
           </label>
+          <div className="btn-group">
+            <button
+            type="button"
+            className="btn btn__edit"
+            onClick={() => setEditing(true)}
+            ref={editButtonRef}
+            >
+            <img src={EditButton} width="20rem"></img><span className="visually-hidden">{props.name}</span>
+          </button>
+          <button
+            type="button"
+            className="btn btn__delete"
+            onClick={() => props.deleteTask(props.id)}
+          >
+          <img src={DeleteButton} width="20rem"></img> <span className="visually-hidden">{props.name}</span>
+          </button>
         </div>
+      </div>
     </div>
   );
 
