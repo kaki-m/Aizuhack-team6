@@ -95,13 +95,9 @@ body {
   border: 2px dashed #32cd32;
 }
 .btn__edit { /* 「編集」ボタン */
-  color: #fff;
-  background-color: grey;
-  border-color: #bd2130;
 }
 .btn__delete { /* 「削除」ボタン */
   color: #fff;
-  background-color: #ca3c3c;
 }
 .btn__filter {
   border-color: lightgrey;

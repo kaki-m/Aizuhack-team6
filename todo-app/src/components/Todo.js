@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-
+import DeleteButton from "../images/DeleteButton.png";
+import EditButton from "../images/EditButton.png";
 
 function usePrevious(value) {
   const ref = useRef();
@@ -83,14 +84,14 @@ export default function Todo(props) {
               onClick={() => setEditing(true)}
               ref={editButtonRef}
               >
-              編集 <span className="visually-hidden">{props.name}</span>
+              <img src={EditButton} width="20rem"></img><span className="visually-hidden">{props.name}</span>
             </button>
             <button
               type="button"
               className="btn btn__delete"
               onClick={() => props.deleteTask(props.id)}
             >
-            削除 <span className="visually-hidden">{props.name}</span>
+            <img src={DeleteButton} width="20rem"></img> <span className="visually-hidden">{props.name}</span>
             </button>
           </div>
           </label>
