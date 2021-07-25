@@ -6,11 +6,6 @@
 *::after {
   box-sizing: border-box;
 }
-/* クリック時の青枠 */
-*:focus {
-  outline: 3px dashed #228bec;
-  outline-offset: 0;
-}
 html {
   font: 62.5% / 1.15 sans-serif;
 }
@@ -167,7 +162,8 @@ body {
   background: white;
   /* 角を丸くする */
   border-radius: 2rem;
-  margin: 2rem 0 4rem 0;
+  margin-top: auto;
+  margin-bottom: auto;
   padding: 1rem;
   position: relative;
   /* 影をつける */

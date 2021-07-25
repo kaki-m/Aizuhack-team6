@@ -14,16 +14,16 @@ function usePrevious(value) {
 }
 
 const FILTER_MAP = {
-  All: () => true,
-  Active: task => !task.completed,
-  Completed: task => task.completed
+  全て: () => true,
+  残り: task => !task.completed,
+  完了: task => task.completed
 };
 
 const FILTER_NAMES = Object.keys(FILTER_MAP);
 
 function App(props) {
   const [tasks, setTasks] = useState(props.tasks);
-  const [filter, setFilter] = useState('All');
+  const [filter, setFilter] = useState('全て');
 
   function toggleTaskCompleted(id) {
     const updatedTasks = tasks.map(task => {
