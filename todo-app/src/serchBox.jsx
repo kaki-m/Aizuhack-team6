@@ -18,16 +18,16 @@ export default class serchBox extends React.Component {
                 google_serch_url:e.target.value,
 
             });
+        {/*
             const next_url = "https://www.google.com/search?q=" + this.state.google_serch_url;
             //URLを実際リダイレクトする
                 window.history.pushState(null, null, next_url);
-            
+        */}
         }
     }
     
   render(){
-      const {sayHello} = this.state;
-      const {contactMe} = this.state;
+      const next_url2 = "https://www.google.com/search?q=" + this.state.google_serch_url;
     return (
         <React.Fragment>
             <div className="input_div">
@@ -40,6 +40,7 @@ export default class serchBox extends React.Component {
                 />
 
             </div>
+            <a href = {next_url2}>検索</a>
     </React.Fragment>
     );
     }
