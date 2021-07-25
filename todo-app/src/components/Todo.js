@@ -85,14 +85,14 @@ export default function Todo(props) {
           onClick={() => setEditing(true)}
           ref={editButtonRef}
           >
-            Edit <span className="visually-hidden">{props.name}</span>
+            編集 <span className="visually-hidden">{props.name}</span>
           </button>
           <button
             type="button"
             className="btn btn__danger"
             onClick={() => props.deleteTask(props.id)}
           >
-            Delete <span className="visually-hidden">{props.name}</span>
+          削除 <span className="visually-hidden">{props.name}</span>
           </button>
         </div>
     </div>
