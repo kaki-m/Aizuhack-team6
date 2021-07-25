@@ -79,6 +79,11 @@ body {
   margin-top: 0.4rem;
 }
 
+/* タスクの数の表示 */
+#list-heading {
+  text-align: center;
+}
+
 /* 「追加」「編集」「削除」ボタン */
 .btn { /* ボタン全て */
   padding: 0.8rem 1rem 0.7rem;

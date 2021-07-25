@@ -87,7 +87,7 @@ function App(props) {
 
 
   const tasksNoun = taskList.length !== 1 ? 'tasks' : 'task';
-  const headingText = `${taskList.length} ${tasksNoun} remaining`;
+  const headingText = `${taskList.length} ${tasksNoun}`;
 
   const listHeadingRef = useRef(null);
   const prevTaskLength = usePrevious(tasks.length);
