@@ -32,6 +32,7 @@ function Form(props) {
         className="input input__lg"
         name="text"
         autoComplete="off"
+        placeholder="タスクをここに入力！" 
         value={name}
         onChange={handleChange}
       />
