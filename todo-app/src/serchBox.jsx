@@ -6,14 +6,22 @@ export default class serchBox extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            sayHello:null,
-            contactMe:null,
+            google_serch_url:'',
+
         }
     }
 
     handleKeyDown(e){
         if(e.keyCode == 13){
             //ここでエンターが押された時の処理をかく
+            this.setState({
+                google_serch_url:e.target.value,
+
+            });
+            const next_url = "https://www.google.com/search?q=" + this.state.google_serch_url;
+            //URLを実際リダイレクトする
+                window.history.pushState(null, null, next_url);
+            
         }
     }
     
