@@ -6,6 +6,7 @@
 *::after {
   box-sizing: border-box;
 }
+/* クリック時の青枠 */
 *:focus {
   outline: 3px dashed #228bec;
   outline-offset: 0;
@@ -87,7 +88,7 @@ body {
 /* 「追加」「編集」「削除」ボタン */
 .btn { /* ボタン全て */
   padding: 0.8rem 1rem 0.7rem;
-  border: 0.2rem solid #505050;
+  
   cursor: pointer;
   text-transform: capitalize;
 }
@@ -98,10 +99,14 @@ body {
   text-decoration: underline;
   border: 2px dashed #32cd32;
 }
-.btn__danger { /* 「削除」ボタン */
+.btn__edit { /* 「編集」ボタン */
+  color: #fff;
+  background-color: grey;
+  border-color: #bd2130;
+}
+.btn__delete { /* 「削除」ボタン */
   color: #fff;
   background-color: #ca3c3c;
-  border-color: #bd2130;
 }
 .btn__filter {
   border-color: lightgrey;
