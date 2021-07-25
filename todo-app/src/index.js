@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+
 import SerchBox from './serchBox';
+
 
 
 const DATA = [
@@ -13,7 +15,9 @@ const DATA = [
 
 ReactDOM.render(
   <React.StrictMode>
+
     <SerchBox />
+
     <App tasks={DATA} />
   </React.StrictMode>,
   document.getElementById('root')
