@@ -22,11 +22,7 @@ function Form(props) {
     <form onSubmit={handleSubmit}>
       <h2 className="label-wrapper">
         <label htmlFor="new-todo-input" className="label__lg">
-<<<<<<< HEAD
-        
-=======
           Todo List
->>>>>>> 3f19420e9fcb22b73688acb16ba1e4e65cb09d11
         </label>
       </h2>
 
