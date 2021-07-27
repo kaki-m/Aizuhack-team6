@@ -1,0 +1,19 @@
+.date{
+    position:relative;
+    top:10px;
+}
+
+.today{
+    position:relative;
+    float:left;
+    color:black;
+    margin-left:50px;
+    top:20px;
+}
+
+.now{
+    position:relative;
+    float:right;
+    top:100px;
+    margin-right:100px;
+}
