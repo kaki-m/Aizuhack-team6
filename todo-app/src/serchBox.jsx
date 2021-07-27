@@ -44,7 +44,7 @@ export default class serchBox extends React.Component {
                     />
 
                 </div>
-                <a href = {next_url2}>
+                <a href = {next_url2} className = "serch_image">
                 <img src = {SearchButton} accesskey = "13" className = "search_button"/>
                 </a>
             </div>
