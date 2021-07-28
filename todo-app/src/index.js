@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Today from './Today';
 import SerchBox from './serchBox';
+import Background6 from './images/background-img6.png';
 
 
 
@@ -15,6 +16,7 @@ const DATA = [
 
 ReactDOM.render(
   <React.StrictMode>
+      <img src = {Background6} className = "background6" />
     <Today />
     <SerchBox />
 

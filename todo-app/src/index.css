@@ -316,3 +316,13 @@ body {
 .c-cb > input[type="checkbox"]:checked + label::after {
   opacity: 1;
 }
+
+.body{
+    background-image: url("./images/background-img6.png");
+}
+
+.background6{
+    position:absolute;
+    height:200%;
+    left:0px;
+}
