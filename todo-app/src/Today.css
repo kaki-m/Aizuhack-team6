@@ -17,3 +17,267 @@
     top:100px;
     margin-right:100px;
 }
+
+.background{
+    position:absolute;
+    height:150%;
+    width:100%;
+    left:0px;
+    top:0px;
+    z-index:0;
+    pointer-events: none;
+}
+
+.debug{
+    z-index:10;
+    color:blue;
+
+}
+
+
+.button1:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+.button2:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+.button3:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+.button4:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+.button5:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+.button6:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+.button7:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+.button8:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+.button9:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+
+.button1{
+    left:10px;
+    background-image:url('./images/background-img1.png');
+  display:inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  z-index:10;
+  margin:10px;
+   background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+    cursor: pointer;
+}
+.button2{
+    left:10px;
+    background-image:url('./images/background-img2.png');
+  display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  z-index:10;
+    margin:10px;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+    cursor: pointer;
+}
+.button3{
+    left:10px;
+    background-image:url('./images/background-img3.png');
+  display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  z-index:10;
+    margin:10px;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+    cursor: pointer;
+}
+.button4{
+    left:10px;
+    background-image:url('./images/background-img4.png');  
+  display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  cursor: pointer;
+  z-index:10;
+    margin:10px;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+.button5{
+    left:10px;
+    background-image:url('./images/background-img5.png');
+      display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  z-index:10;
+  cursor: pointer;
+    margin:10px;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+.button6{
+    left:10px;
+    background-image:url('./images/background-img6.png');
+      display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  cursor: pointer;
+  z-index:10;
+    margin:10px;
+    position:relative;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+.button7{
+    left:10px;
+    background-image:url('./images/background-img7.png');
+  display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  z-index:10;
+  cursor: pointer;
+    margin:10px;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+.button8{
+    left:10px;
+    background-image:url('./images/background-img8.png');
+  display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  z-index:10;
+  cursor: pointer;
+    margin:10px;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+.button9{
+    left:10px;
+    background-image:url('./images/background-img9.png');
+  display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  z-index:10;
+    margin:10px;
+    cursor: pointer;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+
