@@ -2,7 +2,11 @@
     position:relative;
     top:10px;
 }
-
+button{
+    display:inline-block !important;
+    width:100% !important;
+    height:100% !important;
+}
 .today{
     position:relative;
     float:left;
