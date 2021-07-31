@@ -7,6 +7,9 @@ import Background5 from './images/background-img5.png';
 import Background7 from './images/background-img7.png';
 import Background8 from './images/background-img8.png';
 import Background9 from './images/background-img9.png';
+import Background10 from './images/background-img10.png';
+import Background11 from './images/background-img11.png';
+import Background12 from './images/background-img12.png';
 
 import React from 'react';
 import './Today.css';
@@ -22,7 +25,7 @@ export default class Background extends React.Component {
     }
 
     handleChangeImg(x){
-        const img_set = [Background1,Background2,Background3,Background4,Background5,Background6,Background7,Background8,Background9];
+        const img_set = [Background1,Background2,Background3,Background4,Background5,Background6,Background7,Background8,Background9,Background10,Background11,Background12];
         const new_src = img_set[x-1];
         this.setState({
             background_src:new_src,
@@ -66,6 +69,15 @@ export default class Background extends React.Component {
                 </div>
                 <div className = "button9">
                 <button id = "9" onClick = {() =>{this.handleChangeImg(9)}} >9</button>
+                </div>
+                <div className = "button10">
+                <button id = "10" onClick = {() =>{this.handleChangeImg(10)}} >10</button>
+                </div>
+                <div className = "button11">
+                <button id = "11" onClick = {() =>{this.handleChangeImg(11)}} >11</button>
+                </div>
+                <div className = "button12">
+                <button id = "12" onClick = {() =>{this.handleChangeImg(12)}} >12</button>
                 </div>
             </li>
             <div className = "background-div">

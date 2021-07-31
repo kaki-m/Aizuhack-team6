@@ -24,7 +24,7 @@ button{
 
 .background{
     position:absolute;
-    height:150%;
+    height:200%;
     width:100%;
     left:0px;
     top:0px;
@@ -285,3 +285,65 @@ button{
     color:black;
 }
 
+.button10{
+    left:10px;
+    background-image:url('./images/background-img10.png');
+  display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  z-index:10;
+    margin:10px;
+    cursor: pointer;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+
+.button11{
+    left:10px;
+    background-image:url('./images/background-img11.png');
+  display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  z-index:10;
+    margin:10px;
+    cursor: pointer;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+}
+
+.button12{
+    left:10px;
+    background-image:url('./images/background-img12.png');
+  display:block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position:relative;
+  float:left;
+  z-index:10;
+    margin:10px;
+    cursor: pointer;
+     background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    color:black;
+}
