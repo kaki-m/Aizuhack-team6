@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Aizuhack-team6/static/css/main.fb330acf.chunk.css",
+    "main.js": "/Aizuhack-team6/static/js/main.c9bd37bd.chunk.js",
+    "main.js.map": "/Aizuhack-team6/static/js/main.c9bd37bd.chunk.js.map",
+    "runtime-main.js": "/Aizuhack-team6/static/js/runtime-main.d5edfa13.js",
+    "runtime-main.js.map": "/Aizuhack-team6/static/js/runtime-main.d5edfa13.js.map",
+    "static/js/2.ff363431.chunk.js": "/Aizuhack-team6/static/js/2.ff363431.chunk.js",
+    "static/js/2.ff363431.chunk.js.map": "/Aizuhack-team6/static/js/2.ff363431.chunk.js.map",
+    "index.html": "/Aizuhack-team6/index.html",
+    "static/css/main.fb330acf.chunk.css.map": "/Aizuhack-team6/static/css/main.fb330acf.chunk.css.map",
+    "static/js/2.ff363431.chunk.js.LICENSE.txt": "/Aizuhack-team6/static/js/2.ff363431.chunk.js.LICENSE.txt",
+    "static/media/Today.css": "/Aizuhack-team6/static/media/background-img9.4ea1717c.png",
+    "static/media/index.css": "/Aizuhack-team6/static/media/background-img6.448f498b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5edfa13.js",
+    "static/js/2.ff363431.chunk.js",
+    "static/css/main.fb330acf.chunk.css",
+    "static/js/main.c9bd37bd.chunk.js"
+  ]
+}
